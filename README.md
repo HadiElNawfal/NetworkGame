@@ -1,22 +1,17 @@
 # NetworkGame
 ## Server
-* There must be a server waiting for user to request to play the game (the choice of
-how many players is up to you (at least 2). Also, the protocol to connect to the
-server is kept up to you, as long as you meet all the conditions). Once a connection
-is established, the server should send a welcome message to the client, telling
-them that they've connected to the game server.
-* The clients should connect to the server and wait for the welcome message.
-* The game logic should be implemented on the server side. When all players
-connect, the server will create a random number (from 0 to 9) and send it to player
-1; the number will be displayed on his/her screen. Player 1 must type the same
-number and press send as fast as possible. Upon receipt, the server will check if it
-is correct and calculate the total RTT from the time it sent the number until it
-receives the echo back. This will be repeated to all players. The detailed results
-will be displayed on the screen in descending order. Players pressing the wrong
-number are disqualified from this round. This will be repeated over three rounds.
-After each round, the results of the current round and the cumulative scores of
-each player in descending order must be displayed. After the three rounds, the
-server should declare the winner and close the connection.
+* A server should be set up and waiting for player connections to initiate the game.
+* The server establishes a protocol for client-server communication to meet the game conditions.
+* Upon connection, the server sends a welcome message to the client, confirming the successful connection to the game server.
+* The game logic is implemented on the server side.
+** When all players are connected, the server generates a random number from 0 to 9 and sends it to player 1.
+* Player 1 receives the number and must type it as fast as possible, then press send.
+* The server checks the received number's correctness and calculates the Round Trip Time (RTT) from sending the number to receiving the echo back.
+* This process repeats for all players.
+* Players who enter the wrong number are disqualified from the current round.
+* This sequence repeats over three rounds.
+* After each round, the server displays detailed results, including individual round scores and cumulative scores for each player, in descending order.
+* After three rounds, the server declares the winner based on cumulative scores and closes the connection.
 
 ## Client
 Clients connect to the server and wait for the welcome message.
