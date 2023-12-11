@@ -4,7 +4,7 @@ This README provides instructions on how to run the Client and Proxy Server code
 
 ## Table of Contents
 
- [Client-Proxy Server](#Network-game)
+ [NetworkGame](#Network-game)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [Prerequisites](#prerequisites)
