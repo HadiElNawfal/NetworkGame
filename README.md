@@ -1,10 +1,10 @@
-# NetworkGame
+# RTT Game
 
 This README provides instructions on how to run the Client and Proxy Server codes.
 
 ## Table of Contents
 
- [NetworkGame](#Network-game)
+ [RTT Game](#rtt-game)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [Prerequisites](#prerequisites)
