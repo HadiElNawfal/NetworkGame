@@ -15,6 +15,8 @@ This README provides instructions on how to run the Client and Proxy Server code
   - [Limitations and Possible Enhancements](#limitations-and-possible-enhancements)
     - [Limitations](#limitations)
     - [Enhancements](#enhancements)
+  - [Sample Client Output](#Sample-Client-Output)
+  - [Sample Server Output](#Sample-Server-Output)
 
 ## Installation
 
@@ -88,7 +90,7 @@ Limited input validation on the client side.
 * Security Improvements: Add authentication, encryption (e.g., TLS), and better error handling to prevent invalid inputs or malicious connections.
 * Cross-Platform Packaging: Create executables or Docker containers for easier deployment.
 
-## Sample Output (Client)
+## Sample Client Output
 ```
 Welcome, you are now connected to the game server
 
@@ -164,7 +166,7 @@ Scores so far:
 Final Results: The winner of the game is player 1
 ```
 
-## Sample Output (Server)
+## Sample Server Output
 ```
 Ready to serve
 A player joined
