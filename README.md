@@ -28,9 +28,9 @@ Before installing Scapy, make sure you have the following prerequisites:
 
 ### Installation Steps
 
-1. Through your terminal or command prompt, install Scapy using pip by running the following command:
+1. Through your terminal or command prompt, install the requirements using pip by running the following command:
 ```
-pip install scapy
+pip install -r requirements.txt
 ```
 
 This will download and install Scapy and its dependencies.
